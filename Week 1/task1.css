@@ -1,0 +1,272 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    background: #010922 !important;
+}
+#main
+{
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    padding: 29px 156px !important;
+  }
+  .navbar-brand {
+    color: white !important;
+  }
+  .navbar-nav {
+    width: 100%;
+    justify-content: end;
+  }
+  .nav-link {
+    color: white !important;
+    font-family: Outfit;
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 1px 18px;
+  }
+  .buy-btn {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-color: #312964;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .buy-btn img {
+    width: 2rem;
+  }
+#first_page_area
+{
+    Width:100%;
+    Height:400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#first_page
+{
+    Width:80%;
+    Height:100%;
+    display: flex;
+}
+#Fpage_partition1
+{
+    Width:43%;
+    Height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#Fpage_partition2
+{
+    Width:57%;
+    Height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#button
+{
+    width: 210.5px;
+    height: 58px;
+    border-radius: 30px;
+    background-color: #312964;
+    font-family: sans-serif; 
+    font-weight: 600; 
+    font-size: 20px; 
+    color: #EBEBEB;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#first_page_cut
+{
+    width: 100%;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#second_page_area
+{
+    Width:100%;
+    Height:470px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#second_page
+{
+    Width:80%;
+    Height:100%;
+    display: flex;
+}
+#Spage_partition1
+{
+    Width:57%;
+    Height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#Spage_partition2
+{
+    Width:43%;
+    Height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+#third_page_area
+{
+    Width:100%;
+    Height:510px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#third_page
+{
+    Width:80%;
+    Height:100%;
+    display: flex;
+}
+#Tpage_partition1
+{
+    Width:43%;
+    Height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#Tpage_partition2
+{
+    Width:57%;
+    Height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+#fourth_page_area
+{
+    Width:100%;
+    Height:470px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#fourth_page
+{
+    Width:80%;
+    Height:100%;
+    display: flex;
+}
+#Fpage_partition1
+{
+    Width:57%;
+    Height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#Fpage_partition2
+{
+    Width:43%;
+    Height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+}
+#fourth_page_cut
+{
+    width: 100%;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: sans-serif;
+}
+#fifthth_page_area
+{
+    Width:100%;
+    Height:420px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#fifth_page
+{
+    Width:78%;
+    Height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+#card
+{
+    width: 32%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #0B0F2F;
+    border-radius: 25px;
+    font-family: sans-serif;
+}
+#fifth_page_cut
+{
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: sans-serif;
+}
+#footer_area
+{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#footer
+{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    font-family: sans-serif;
+}
+#footer_option
+{
+    width: 15%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: sans-serif;
+    color: #D9D9D9;
+}
+@media screen and (max-width: 992px) {
+  #first_page{
+    flex-direction: column;
+  }
+  }
